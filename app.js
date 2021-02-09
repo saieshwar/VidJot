@@ -81,9 +81,10 @@ app.get('/', (req,res)=>{
         title: title
     });
 });
+
 //About Route
 app.get('/about' , (req,res) => {
-    res.render('About');
+    res.render('about');
 })
 
 
